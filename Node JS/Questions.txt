@@ -1,0 +1,5 @@
+1. What is REPL?
+2. what is file system.
+3. first data base 
+4. file system vs database
+5. What is callo back function
