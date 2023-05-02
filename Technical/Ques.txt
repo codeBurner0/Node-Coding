@@ -1,0 +1,4 @@
+1. what is middleware?
+2. why mongoose?
+3. Diffreance between usestate and useeffect
+4. How node works behind the scenes

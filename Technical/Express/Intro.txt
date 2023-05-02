@@ -1,0 +1,4 @@
+ Express JS
+    -It is framework of Node JS
+    -if you write a samll rest api server in plain node js then it takes 5-10x more time 
+     and lines of code
