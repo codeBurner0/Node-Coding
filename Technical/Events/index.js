@@ -1,6 +1,6 @@
 /* 
  Node has inbuilt module called Events
-    -where you can fire listen and create to there own events
+    -where you can fire listen and create there own events
 */
 
 const EventEmitter=require("events")

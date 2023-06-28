@@ -1,9 +1,14 @@
 const express=require("express")
 const app=express()
 const fs=require("fs")
+const path=require('path')
+const dir=path.join(__dirname,'../public')
+console.log(dir)
 const data=fs.readFileSync(`${__dirname}/input.html`,"utf-8")
+
 app.get("/",(req,res)=>{
-    res.send(data);
+    app.use(express.static(dir))
+    res.next();
 })
 app.get("/About",(req,res)=>{
     res.status(200).send("<h1>This is About</h1>");
